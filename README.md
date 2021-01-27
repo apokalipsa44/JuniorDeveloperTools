@@ -24,14 +24,17 @@ For development there are a three default users embedded in a start. Admin can a
 ###### Main view
 User can add new playlists here, place some comments and navigate between subjects. Also, logout option is available
 
-![playlist](readme-img/playlist-panel.gif)
+![playlist](readme-img/playlist-panel.gif)  
+  
+  
   
 ###### Add new source
 User can add new sources by pasting links. Thumbnail is automatically generated.
 
-![website](readme-img/add-website.gif)
---
-![video](readme-img/add-video.gif)
+![website](readme-img/add-website.gif)  
+  
+  
+
   
 
 ###### Admin panel
@@ -39,11 +42,13 @@ Admin panel allows adding new users and change user's privileges.
 ![amdmin](readme-img/admin-panel.gif)
   
 ---
-###Authors:  
+### Authors:  
 
-<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar' style='border-radius: 50%'/>[stolarri](https://github.com/stolarri)  
-
-<img src='https://avatars.githubusercontent.com/u/50769765?s=88&v=4' height='40px' alt='avatar' style='border-radius: 50%'/>[apokalipsa44](https://github.com/apokalipsa44)  
+[<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar' style='border-radius: 50%'/> stolarri](https://github.com/stolarri)  
+  
+    
+    
+[<img src='https://avatars.githubusercontent.com/u/50769765?s=88&v=4' height='40px' alt='avatar' style='border-radius: 50%'/> apokalipsa44](https://github.com/apokalipsa44)  
 
 
 
