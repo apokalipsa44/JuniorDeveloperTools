@@ -41,14 +41,12 @@ Admin panel allows adding new users and change user's privileges.
 ---
 ###Authors:  
 
-<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar'/> 
-[stolarri](https://github.com/stolarri)   
+<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar'/>
+[stolarri](https://github.com/stolarri)  
 
-  <br/>
-<img src='https://avatars.githubusercontent.com/u/50769765?s=88&v=4' height='40px' alt='avatar'/> 
+<img src='https://avatars.githubusercontent.com/u/50769765?s=88&v=4' height='40px' alt='avatar'/>  
 [apokalipsa44](https://github.com/apokalipsa44)  
-<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar'/> 
-[stolarri](https://github.com/stolarri)   
+
 
 
 
