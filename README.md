@@ -1,93 +1,53 @@
-Baza tutoriali dla przyszłych juniorów
+# Junior Developer Tools
 
-Krótki opis systemu:
-Aplikacja, której celem jest gromadzenie wiedzy w postaci tutoriali, linków wraz z własnymi komentarzami, dzięki czemu możemy przechowywać wiedzę na dany temat w jednym miejscu. Każdy zbiór wiedzy możesz przesłać innemu użytkownikowi.
-Główne funkcje systemu: 
+ ##### Get Yours all tutorials in one place.
+This app helps the user to store his tutorials both
+video and website writeups assigned to the specific subject they concern.
+In simple words user can create specific playlist, or bookmark and paste there links to 
+his favorite and most valuable tutorials concerning this specific subject.
 
-- Rejestracja kont użytkowników 
+---
+### Used technologies
+- for backend part java  ![java](readme-img/java-logo.png) and spring ![Encje_mvn](readme-img/spring-boot-logo.png)
+- UI part done with Vaadin ![Encje_mvn](readme-img/vaadin-logo.png)
+- MySQL and H2 database support 
 
-- Panel administracyjny
+---
+### Basic functions:
+  
 
- -Dodawanie i usuwanie linków 
+###### Login panel
+For development there are a three default users embedded in a start. Admin can also add new users via admin panel.
 
-- Możliwość dodawania komentarzy do linków/plików
+![llogin](readme-img/login.gif)
+  
+###### Main view
+User can add new playlists here, place some comments and navigate between subjects. Also, logout option is available
 
- -Dzielenie się zbiorami wiedzy z innymi użytkownikami 
+![playlist](readme-img/playlist-panel.gif)
+  
+###### Add new source
+User can add new sources by pasting links. Thumbnail is automatically generated.
 
- - Podział wiedzy na kategorie 
+![website](readme-img/add-website.gif)
+--
+![video](readme-img/add-video.gif)
+  
 
-Technologie: 
+###### Admin panel
+Admin panel allows adding new users and change user's privileges.
+![amdmin](readme-img/admin-panel.gif)
+  
+---
+###Authors:
+<img src='https://avatars.githubusercontent.com/u/50769722?s=400&v=4' height='40px' alt='avatar'/> 
+[stolarri](https://github.com/stolarri)   
 
--	Spring 
--	Hibernate.
--	Vaadin
--	React?
-
-Podstawowe byty:
-
-1.	Encje
-
-Użytkownik
-Hasło (BCryptPasswordEncoder)
-Email
-Login
-Rola
-
-Zbiór wiedzy
-Nazwa
-Komentarz
-Link do zbioru wiedzy
-
-Wiedza 
-Nazwa(dla filmików pobierane automatycznie, dla stron może też)
-Link do źródła
-Zbiór wiedzy
-Rodzaj
-Komentarz
-Miniaturka
-
-
-Komentarz 
-Udzielający (Użytkownik)
-Treść
-Data
-
-![Encje_mvn](media/encje.png)
+  <br/>
+<img src='https://avatars.githubusercontent.com/u/50769765?s=88&v=4' height='40px' alt='avatar'/> 
+[apokalipsa44](https://github.com/apokalipsa44)
 
 
-Rys.1 Diagram klas
 
 
-2.	Interfejs
-Panel logowania
-Login
-Hasło
-Panel administratora
-Widok użytkowników
-Usuwanie użytkowników
-Strona główna
-Lista zbiorów wiedzy
-Przycisk wyloguj
-Strona zbioru wiedzy
-Lista wiedzy(usuwanie, dodawanie, dodawanie komentarzy)
-Przycisk powrót na stronę główną
 
-Funkcjonalności:
-
-Rejestracja konta użytkownika:
-- formularz posiada pola email, hasło oraz login
-- formularz przypomnienia hasła z polem email – podanie poprawnego wysyła nowy email z hasłem
-Zarządzanie kategoriami(strona główna):
-- zalogowany użytkownik może stworzyć kategorię wiedzy
-- formularz dodawania kategorii ma pole treść
-- użytkownik ma możliwość wysłania linka do zbioru wiedzy do innego użytkownika
-- formularz wysyłania linka do zbioru wiedzy dalej(?)
-- możliwość wyszukiwania po kategorii oraz po konkretnym źródle wiedzy
-- użytkownik ma możliwość edycji/usuwania kategorii
-Zarządzanie wiedzą:
-- użytkownik ma możliwość dodania linku do nowego źródła wiedzy
-- formularz dodawania linków ma pole typu tekstowego dla linka oraz pole treść dla komentarza
-- użytkownik ma możliwość edycji źródła oraz jego usuwania
-Panel administracyjny:
-- administrator ma podgląd na listę zalogowanych użytkowników
-- możliwość usuwania użytkowników
