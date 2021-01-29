@@ -64,7 +64,9 @@ public class MainView extends AbstractAppRouterLayout {
         Image image=new Image("frontend/images/banner.png", "logo");
         image.setHeight("80px");
         appLayoutMenu.addMenuItem(image);
-        //appLayout.setBranding(new Span("JuniorDeveloperTools"));
+        Span branding =new Span("JuniorDeveloperTools");
+        branding.getStyle().set("font-size", "45px");
+        appLayout.setBranding(branding);
         //appLayout.setBranding(image);
         appLayoutMenu.addMenuItem(new AppLayoutMenuItem(tabs));
 
